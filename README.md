@@ -151,8 +151,6 @@ NoteLog does **not** currently provide its own cloud-sync service.
 
 If you use a cloud-backed folder, synchronization is provided by the storage provider. Avoid editing the same note simultaneously on multiple devices because conflicts can occur.
 
----
-
 ## 📱 Screenshots
 
 <div align="center">
