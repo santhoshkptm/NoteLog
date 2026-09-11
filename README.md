@@ -156,8 +156,8 @@ If you use a cloud-backed folder, synchronization is provided by the storage pro
 <div align="center">
   <img src="screenshots/home.png" width="220">
   <img src="screenshots/File-Options.png" width="220">
-  <img src="screenshots/log-editor.png" width="220">
-  <img src="screenshots/menu.png" width="220">
+  <img src="screenshots/Log-editor.png" width="220">
+  <img src="screenshots/Menu.png" width="220">
 </div>
 
 ## 🛠️ Project Status
