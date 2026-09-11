@@ -154,10 +154,10 @@ If you use a cloud-backed folder, synchronization is provided by the storage pro
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="screenshots/home.png" width="220">
-  <img src="screenshots/File-Options.png" width="220">
-  <img src="screenshots/Log-editor.png" width="220">
-  <img src="screenshots/Menu.png" width="220">
+  <img src="screenshots/home.jpg" width="220" alt="NoteLog Home">
+  <img src="screenshots/File-Options.jpg" width="220" alt="File Options">
+  <img src="screenshots/Log-editor.jpg" width="220" alt="Log Editor">
+  <img src="screenshots/Menu.jpg" width="220" alt="NoteLog Menu">
 </div>
 
 ## 🛠️ Project Status
