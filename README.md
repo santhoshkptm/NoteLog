@@ -128,13 +128,7 @@ The timestamp remains editable, so you can correct or adjust entries whenever yo
 
 NoteLog uses Android's folder-selection system so you can choose where your notes live.
 
-Your notes are stored as normal:
-
-```text
-.txt
-```
-
-files.
+Your notes are stored as normal: .txt files.
 
 This makes it possible to:
 
