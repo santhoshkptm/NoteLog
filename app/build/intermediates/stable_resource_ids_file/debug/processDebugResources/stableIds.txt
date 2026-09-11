@@ -1,0 +1,10 @@
+com.example.simplejournal:mipmap/ic_launcher_round = 0x7f030001
+com.example.simplejournal:drawable/notelog_icon = 0x7f020001
+com.example.simplejournal:drawable/ic_launcher = 0x7f020000
+com.example.simplejournal:mipmap/ic_launcher = 0x7f030000
+com.example.simplejournal:color/white = 0x7f010003
+com.example.simplejournal:style/AppTheme = 0x7f040000
+com.example.simplejournal:color/notelog_icon_background = 0x7f010002
+com.example.simplejournal:color/gray = 0x7f010001
+com.example.simplejournal:drawable/notelog_icon_foreground = 0x7f020002
+com.example.simplejournal:color/black = 0x7f010000

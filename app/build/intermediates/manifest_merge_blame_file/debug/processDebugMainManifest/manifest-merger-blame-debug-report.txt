@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.simplejournal"
+4    android:versionCode="9"
+5    android:versionName="1.4.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+11-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:2:5-72
+11-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:2:22-69
+12
+13    <application
+13-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:5-12:19
+14        android:allowBackup="true"
+14-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:155-181
+15        android:debuggable="true"
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:74-108
+18        android:label="NoteLog"
+18-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:50-73
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:109-154
+20        android:supportsRtl="true"
+20-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:182-208
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:3:18-49
+22        <activity
+22-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:4:9-77
+23            android:name="com.example.simplejournal.EditorActivity"
+23-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:4:19-49
+24            android:exported="false" />
+24-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:4:50-74
+25        <activity
+25-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:5:9-76
+26            android:name="com.example.simplejournal.AboutActivity"
+26-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:5:19-48
+27            android:exported="false" />
+27-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:5:49-73
+28        <activity
+28-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:6:9-11:20
+29            android:name="com.example.simplejournal.MainActivity"
+29-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:6:19-47
+30            android:exported="true"
+30-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:6:85-108
+31            android:screenOrientation="portrait" >
+31-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:6:48-84
+32            <intent-filter>
+32-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:7:13-10:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:8:17-69
+33-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:8:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:9:17-77
+35-->C:\Users\santh\Downloads\SimpleJournal\NoteLog-v1.4.3-source\app\src\main\AndroidManifest.xml:9:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

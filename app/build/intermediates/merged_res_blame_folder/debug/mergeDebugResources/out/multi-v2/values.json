@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.simplejournal.app-mergeDebugResources-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\santh\\Downloads\\SimpleJournal\\NoteLog-v1.4.3-source\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "0,0,0,0",
+                        "startColumns": "11,81,119,46",
+                        "startOffsets": "11,81,119,46",
+                        "endColumns": "46,115,172,81",
+                        "endOffsets": "46,115,172,81"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,95,134,192",
+                        "endColumns": "39,38,57,39",
+                        "endOffsets": "90,129,187,227"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\santh\\Downloads\\SimpleJournal\\NoteLog-v1.4.3-source\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "553"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "232",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "769"
+                    }
+                }
+            ]
+        }
+    ]
+}

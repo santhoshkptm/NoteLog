@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+
+android { namespace 'com.example.simplejournal'; compileSdk 35
+    defaultConfig { applicationId 'com.example.simplejournal'; minSdk 28; targetSdk 35; versionCode 9; versionName '1.4.3' }
+}
