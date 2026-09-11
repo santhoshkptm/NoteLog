@@ -162,7 +162,6 @@ If you use a cloud-backed folder, synchronization is provided by the storage pro
   <img src="screenshots/menu.png" width="220">
 </div>
 
-```
 ## 🛠️ Project Status
 
 NoteLog is an actively developed personal/open-source project.
