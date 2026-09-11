@@ -155,31 +155,13 @@ If you use a cloud-backed folder, synchronization is provided by the storage pro
 
 ## 📱 Screenshots
 
-Screenshots can be added here later without changing the rest of this README.
-
-For example:
-
-```markdown
 <div align="center">
   <img src="screenshots/home.png" width="220">
-  <img src="screenshots/note-editor.png" width="220">
+  <img src="screenshots/File Options.png" width="220">
   <img src="screenshots/log-editor.png" width="220">
-  <img src="screenshots/about.png" width="220">
+  <img src="screenshots/menu.png" width="220">
 </div>
-```
 
-Recommended repository structure:
-
-```text
-NoteLog/
-├── app/
-├── screenshots/
-│   ├── home.png
-│   ├── note-editor.png
-│   ├── log-editor.png
-│   └── about.png
-├── README.md
-└── LICENSE
 ```
 ## 🛠️ Project Status
 
