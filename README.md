@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32086169/README.md)
 <div align="center">
 
 <img src="NoteLog-Image.png" alt="NoteLog" width="140">
