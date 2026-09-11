@@ -181,35 +181,6 @@ NoteLog/
 ├── README.md
 └── LICENSE
 ```
-
-Once the images are added to GitHub, simply replace the example block above with the actual image references.
-
----
-
-## 🧭 Getting Started
-
-### 1. Open the project
-
-Open the Android project in **Android Studio**.
-
-### 2. Build the app
-
-Allow Android Studio to synchronize the Gradle project and download any required dependencies.
-
-### 3. Run NoteLog
-
-Run the application on an Android device or emulator.
-
-### 4. Choose a folder
-
-On first use, select the folder where you want NoteLog to keep your text files.
-
-### 5. Create your first note
-
-Tap **+**, choose a note type, enter a filename, and start writing.
-
----
-
 ## 🛠️ Project Status
 
 NoteLog is an actively developed personal/open-source project.
@@ -225,23 +196,6 @@ The current version focuses on:
 - A clean, distraction-free interface
 
 Some functionality may continue to evolve as the project develops.
-
----
-
-## 🗺️ Possible Future Ideas
-
-Ideas for future versions may include:
-
-- Improved cloud-sync workflows
-- More customization options
-- Additional export/import tools
-- Enhanced note organization
-- Additional accessibility improvements
-- More polished statistics or journaling tools
-
-The goal is to keep NoteLog **simple rather than bloated**.
-
----
 
 ## 🔒 Privacy Philosophy
 
