@@ -1,20 +1,314 @@
+[README.md](https://github.com/user-attachments/files/32086169/README.md)
+<div align="center">
+
+<img src="NoteLog-Image.png" alt="NoteLog" width="140">
+
 # NoteLog
 
-A minimal local-only Android text notes and logs app. The app display name is **NoteLog**.
+### Simple notes. Simple logs. Your files, your way.
 
-## Note types
-- Notes: automatic `• ` bullets.
-- Log: entries use `yyyy-MM-dd HH:mm - text`; a new empty line starts as `[YYYY-MM-DD HH:MM] -` and is timestamped when text is first entered.
-- Check-Box: automatic `☐ ` items; tap the box to toggle `☐`/`☑`.
-- Bullets: automatic `• ` items.
-- Plain: completely free-form text.
+A lightweight, private, local-first Android app for notes, logs, checklists, and plain-text journaling.
 
-## Storage
-On first launch choose a folder using Android's system folder picker. Files are saved as ordinary `.txt` documents in that folder, outside the app's private data area. This means clearing app data or uninstalling the app does not delete the notes. Android may revoke the app's folder permission after uninstall/clear-data, so select the same folder again when reinstalling/reopening.
+<p>
+  <a href="https://github.com/santhoshkptm/NoteLog">
+    <img src="https://img.shields.io/badge/GitHub-NoteLog-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/Storage-Plain%20Text-4A4A4A?style=for-the-badge" alt="Plain Text">
+  <img src="https://img.shields.io/badge/Privacy-Local--First-6C63FF?style=for-the-badge" alt="Local First">
+  <a href="https://github.com/santhoshkptm/NoteLog/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/santhoshkptm/NoteLog?style=for-the-badge" alt="License">
+  </a>
+</p>
 
-Note-type metadata is kept in the app preferences rather than creating hidden files in your selected folder. Existing notes can also have their type inferred from their contents. The `.txt` files remain the only user-visible note files created by the app.
+<p>
+  <a href="https://buymeacoffee.com/santhoshkptm">
+    <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-Support%20NoteLog-F7CA3E?style=for-the-badge" alt="Buy Me a Coffee">
+  </a>
+</p>
 
-## Build
-Open the `SimpleJournal` folder in Android Studio. The project uses Android Gradle Plugin 8.7.3 and compile/target SDK 35. No `Theme.DeviceDefault.DayNight.NoActionBar` resource is referenced.
+</div>
 
-Build with **Build > Build APK(s)**. The debug APK is normally written to `app/build/outputs/apk/debug/app-debug.apk`.
+---
+
+## ✨ Why NoteLog?
+
+NoteLog is designed around one simple idea:
+
+> **Your notes should be simple, private, portable, and yours.**
+
+Instead of locking your writing inside a proprietary database, NoteLog stores your notes as ordinary `.txt` files in a folder you choose.
+
+That means your notes remain easy to access, copy, back up, move, and read with other applications.
+
+---
+
+## 🚀 Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 📝 Flexible Note Types
+
+- **Notes** — everyday notes with automatic bullets
+- **Log** — timestamped journal entries
+- **Check-Box** — simple task/check lists
+- **Bullets** — quick bullet-point notes
+- **Plain** — completely free-form text
+
+</td>
+<td width="50%" valign="top">
+
+### 🔎 Powerful Basics
+
+- Global note search
+- Find text within a note
+- Sort notes
+- Rename notes
+- Delete notes
+- Autosave
+- Explicit Save
+- Undo / Redo
+- Native copy / paste / select
+
+</td>
+</tr>
+
+<tr>
+<td valign="top">
+
+### 🔐 Privacy & Security
+
+- Local-first storage
+- Optional app lock
+- Device PIN/password/pattern support
+- Biometric authentication where supported
+- No cloud account required
+
+</td>
+<td valign="top">
+
+### 🎨 Clean Experience
+
+- Minimal Android interface
+- Light and dark themes
+- Simple two-column note list
+- User-selected storage folder
+- Notes remain ordinary `.txt` files
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🕐 Smart Log Entries
+
+The **Log** note type makes journaling quick without forcing you to manually enter timestamps.
+
+A new entry starts with:
+
+```text
+[YYYY-MM-DD HH:MM] -
+```
+
+Start typing and NoteLog turns it into the current timestamp:
+
+```text
+2026-09-05 12:03 - Lunch with family
+```
+
+Press **Enter** to create the next timestamp placeholder.
+
+The timestamp remains editable, so you can correct or adjust entries whenever you need to.
+
+---
+
+## 📂 Your Files. Your Folder.
+
+NoteLog uses Android's folder-selection system so you can choose where your notes live.
+
+Your notes are stored as normal:
+
+```text
+.txt
+```
+
+files.
+
+This makes it possible to:
+
+- Access your notes through Android Files
+- Copy them to another device
+- Back them up manually
+- Open them with other text editors
+- Potentially use folders provided by supported cloud-storage apps
+- Keep your notes outside NoteLog's private app database
+
+### Important
+
+NoteLog does **not** currently provide its own cloud-sync service.
+
+If you use a cloud-backed folder, synchronization is provided by the storage provider. Avoid editing the same note simultaneously on multiple devices because conflicts can occur.
+
+---
+
+## 📱 Screenshots
+
+Screenshots can be added here later without changing the rest of this README.
+
+For example:
+
+```markdown
+<div align="center">
+  <img src="screenshots/home.png" width="220">
+  <img src="screenshots/note-editor.png" width="220">
+  <img src="screenshots/log-editor.png" width="220">
+  <img src="screenshots/about.png" width="220">
+</div>
+```
+
+Recommended repository structure:
+
+```text
+NoteLog/
+├── app/
+├── screenshots/
+│   ├── home.png
+│   ├── note-editor.png
+│   ├── log-editor.png
+│   └── about.png
+├── README.md
+└── LICENSE
+```
+
+Once the images are added to GitHub, simply replace the example block above with the actual image references.
+
+---
+
+## 🧭 Getting Started
+
+### 1. Open the project
+
+Open the Android project in **Android Studio**.
+
+### 2. Build the app
+
+Allow Android Studio to synchronize the Gradle project and download any required dependencies.
+
+### 3. Run NoteLog
+
+Run the application on an Android device or emulator.
+
+### 4. Choose a folder
+
+On first use, select the folder where you want NoteLog to keep your text files.
+
+### 5. Create your first note
+
+Tap **+**, choose a note type, enter a filename, and start writing.
+
+---
+
+## 🛠️ Project Status
+
+NoteLog is an actively developed personal/open-source project.
+
+The current version focuses on:
+
+- Reliable plain-text storage
+- Simple note-taking
+- Timestamped logs
+- Local-first operation
+- Basic search and organization
+- Optional security
+- A clean, distraction-free interface
+
+Some functionality may continue to evolve as the project develops.
+
+---
+
+## 🗺️ Possible Future Ideas
+
+Ideas for future versions may include:
+
+- Improved cloud-sync workflows
+- More customization options
+- Additional export/import tools
+- Enhanced note organization
+- Additional accessibility improvements
+- More polished statistics or journaling tools
+
+The goal is to keep NoteLog **simple rather than bloated**.
+
+---
+
+## 🔒 Privacy Philosophy
+
+NoteLog is built with a local-first approach.
+
+Your notes are ordinary text files stored in a folder you choose. NoteLog does not require you to create an account or upload your notes to a NoteLog-operated cloud service.
+
+For maximum privacy, choose a local device folder and maintain your own backups.
+
+---
+
+## 🤝 Contributing
+
+Contributions, bug reports, suggestions, and improvements are welcome.
+
+If you find an issue or have an idea:
+
+1. Check the existing GitHub issues.
+2. Open a new issue with a clear description.
+3. Include steps to reproduce bugs where possible.
+4. For code changes, submit a pull request with a concise explanation.
+
+**Repository:**  
+https://github.com/santhoshkptm/NoteLog
+
+---
+
+## ❤️ Support
+
+If you find NoteLog useful and would like to support its development:
+
+<div align="center">
+
+<a href="https://buymeacoffee.com/santhoshkptm">
+  <img src="https://img.shields.io/badge/☕%20Buy%20Me%20a%20Coffee-Support%20the%20Project-F7CA3E?style=for-the-badge" alt="Buy Me a Coffee">
+</a>
+
+</div>
+
+Every bit of support is appreciated.
+
+---
+
+## 👤 Author
+
+**Santhosh Mankali**
+
+- GitHub: https://github.com/santhoshkptm
+- NoteLog: https://github.com/santhoshkptm/NoteLog
+- Buy Me a Coffee: https://buymeacoffee.com/santhoshkptm
+
+---
+
+## 📜 License
+
+NoteLog is released under the **MIT License**.
+
+See [LICENSE](LICENSE) for details.
+
+---
+
+<div align="center">
+
+**NoteLog**  
+*Simple notes. Simple logs. Your files, your way.*
+
+Made with ❤️ for people who like keeping things simple.
+
+</div>
